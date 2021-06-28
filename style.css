@@ -1,0 +1,148 @@
+body{
+    background-image: url(images/1d65cc9ce3375d8fe3a993b90a7d41b6.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    padding: 100px 0px !important;
+}
+
+.h1{
+    font-size: 80px;
+    color: rgb(236, 208, 167);
+}
+h2{
+    font-size: 50px;
+    color: rgb(236, 208, 167)
+}
+.imagen-churro{
+    max-width: 400px;
+    max-height: 650px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.imagen-churro:hover{
+    transform: scale(1.3);
+    transition: all 0,5ms;
+}
+.imagen-postre:hover{
+    transform: scale(1.3);
+    transition: all 0,5ms;
+}
+.imagen-cafe:hover{
+    transform: scale(1.3);
+    transition: all 0,5ms;
+}
+.imagen-hotcake:hover{
+    transform: scale(1.3);
+    transition: all 0,5ms;
+}
+.imagen-wafle:hover{
+    transform: scale(1.3);
+    transition: all 0,5ms;
+}
+
+
+.imagen-postre{
+    max-width: 400px;
+    max-height: 570px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.imagen-cafe{
+    max-width: 400px;
+    max-height: 570px;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.imagen-hotcake{
+    max-width: 400px;
+    max-height: 570px;
+}
+
+.imagen-wafle{
+    max-width: 400px;
+    max-height: 570px;
+}
+
+.style-paragraph{
+    color: rgb(1, 1, 10);
+    font-size: xx-large;
+    font-family: 'Cookie', cursive;
+    font-style: italic;
+    }
+    
+    /* .style-paragraph{
+    padding: 100px 20px; text-align: right 
+    ; background-color: #f88f2c;} */
+    
+    .facebook{
+        width: 55px;
+        border-radius: 40px;
+        
+    }
+    .instagram {
+        width: 35px;
+        border-radius: 40px;
+    }
+    
+    
+    .redes{
+        text-decoration: none;
+        position: relative;
+        bottom: 100px;
+        left: 1200px;
+    }
+    
+    .link2{
+        color: rgb(83, 82, 82);
+     
+    
+    }
+
+    .fin{
+        border-top: solid 1px rgb(224, 66, 18);
+    }
+    /* .map{
+        position: relative;
+        top: 240px;
+    } */
+
+/* Nosotros */
+
+.paragraph{
+    font-size: 20px;
+}
+
+.nosotros.paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nosotros-image{
+    max-width: 500px;
+}
+
+/*  Novedades*/
+
+.h3{
+    color: rgb(236, 208, 167)
+;
+}
+
+.colh3{
+    display: flex;
+    align-items: center;
+}
